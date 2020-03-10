@@ -7,7 +7,6 @@ req.setRequestHeader("OData-Version", "4.0");
 req.setRequestHeader("Accept", "application/json");
 req.setRequestHeader("Content-Type", "application/json; charset=utf-8");
 req.setRequestHeader("Prefer", "odata.include-annotations=\"*\"");
-var tempArray = new array();
 req.onreadystatechange = function() {
     if (this.readyState === 4) {
         req.onreadystatechange = null;
