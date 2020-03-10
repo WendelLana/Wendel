@@ -1,5 +1,3 @@
-
-console.log("worked");
 var req = new XMLHttpRequest(); 
 req.open("GET", "https://ax4bc.crm.dynamics.com/api/data/v9.1/accounts?$select=name,emailaddress1,address1_country", true);
 req.setRequestHeader("OData-MaxVersion", "4.0");
@@ -18,6 +16,7 @@ req.onreadystatechange = function() {
                 var name = row.insertCell(0);
                 var email = row.insertCell(1);
                 var country = row.insertCell(2);
+                console.log(results.value[i]["name"]);
                 name.innerHTML = results.value[i]["name"];
                 email.innerHTML = results.value[i]["emailaddress1"];
                 country.innerHTML = results.value[i]["address1_country"];
