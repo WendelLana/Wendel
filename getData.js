@@ -15,7 +15,7 @@ req.onreadystatechange = function() {
                 var email = row.insertCell(1);
                 var country = row.insertCell(2);
                 name.innerHTML = result[i]["employee_name"];
-                email.innerHTML = result[i]["employee_salary"];
+                email.innerHTML = "R$ ".concat(parseFloat(result[i]["employee_salary"]).toFixed(2));
                 country.innerHTML = result[i]["employee_age"];
             }        
         }
