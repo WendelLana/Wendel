@@ -1,5 +1,5 @@
 var req = new XMLHttpRequest(); 
-req.open("GET", "dummy.restapiexample.com/api/v1/employees", true);
+req.open("GET", "https://dummy.restapiexample.com/api/v1/employees", true);
 req.setRequestHeader("OData-MaxVersion", "4.0");
 req.setRequestHeader("OData-Version", "4.0");
 req.setRequestHeader("Accept", "application/json");
