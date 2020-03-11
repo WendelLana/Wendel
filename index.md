@@ -36,15 +36,10 @@
                                 <thead class="thead-dark">
                                     <tr>
                                         <th>Nome</th>
-                                        <th>E-mail</th>
-                                        <th>País</th>
+                                        <th>Salário</th>
+                                        <th>Idade</th>
                                     </tr>
                                 </thead>
-                                <tr>
-                                    <td>ola</td>
-                                    <td>ola</td>
-                                    <td>20.00</td>
-                                </tr>
                             </table>
                         </div>
                         <div class="col col-md-4">
